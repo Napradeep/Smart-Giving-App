@@ -8,11 +8,10 @@ import 'package:clone/smart_giving/utlis/razorpay/subscription_res_model.dart';
 import 'package:dio/dio.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 
-const razorPayKeyId = "rzp_test_IEX5XUvVeODm15";
-//'rzp_live_zldtavf5nKnRgs'; //live
+const razorPayKeyId = "your key ";
 
-const razorPayKeyScrete = "oyCMuj4sYJ4qJYQNLDRp3FOf";
-// 'oE2Ty5g0IrLhvy2tm4y4S2ym';//live
+const razorPayKeyScrete = "your Sceret key ";
+
 
 class RazorPayUtils {
   final _razorpay = Razorpay();
